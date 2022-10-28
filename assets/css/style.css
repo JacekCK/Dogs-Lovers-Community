@@ -7,6 +7,51 @@
 }
 
 body { 
-    font-family: Inter, sans-serif;
+    font-family: Noto-Sans, sans-serif;
     font-weight: 300;
+}
+
+/* heading and logo */
+
+h1, h2{
+    font-family: Noto-Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #140f59;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin: 10px 0 0 25px;
+}
+
+/* navigation bar */
+
+#navbar {
+    font-size: 125%;
+    letter-spacing: 5px;
+}
+
+#logo, #navbar {
+    line-height: 80px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid #140f59;
+}
+
+.active {
+    border-bottom: 1px solid #140f59;
 }
