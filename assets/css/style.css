@@ -13,7 +13,7 @@ body {
 
 /* heading and logo */
 
-h1, h2, h3{
+h1, h2, h3, span {
     font-family: Inter, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -200,7 +200,7 @@ h3 {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 50px;
     
 }
 
@@ -224,7 +224,7 @@ footer {
 #map-wrapper {
 
     height: 300px;
-    margin-bottom: 107px;
+    margin-bottom: 10px;
 }
 
 #map {
