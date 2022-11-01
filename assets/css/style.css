@@ -445,4 +445,9 @@ h4 {
     font-size: 120%;
 }
 
+#photos {
+    column-count: 2;
+   }
+
+
 }
