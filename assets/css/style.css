@@ -261,11 +261,11 @@ footer {
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    left: 25%;
+    left: 26%;
     padding: 30px;
 }
 
-.signup-form h2 {
+.signup-form h2, h3, h4 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -296,6 +296,23 @@ footer {
 }
 
 .join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+.join-button2 {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fafafa;
+    display: block;
+    width: fit-content;
+}
+
+.join-button2:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
