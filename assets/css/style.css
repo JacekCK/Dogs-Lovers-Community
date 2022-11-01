@@ -235,7 +235,7 @@ footer {
 #map-wrapper {
 
     height: 300px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 #map {
@@ -392,10 +392,9 @@ h4 {
         margin-bottom: 0px;
     }
 
-}
 
-/* Style for screens size 416px wide and down */
-@media screen and (max-width:416px) {
+
+
 
 #logo {
     margin-left: 7px;
@@ -432,17 +431,17 @@ h4 {
 #center-about {
     height: 100%;
     width: 50%;
-    margin-top: 740px;
+    margin-top: 680px;
     
 }
 
 #square-container {
-    height: 200px;
-   width: 200px;
+    height: 250px;
+   width: 250px;
 }
 
 .social-networks i {
-    font-size: 120%;
+    font-size: 109%;
 }
 
 #photos {
@@ -453,7 +452,7 @@ h4 {
 }
 
 /* Style for screens size 360px wide and down */
-@media screen and (max-width:360px) {
+@media screen and (max-width:420px) {
 
 #navbar {
     font-size: 98%;
@@ -462,7 +461,7 @@ h4 {
 #center-about {
     height: 100%;
     width: 50%;
-    margin-top: 800px;
+    margin-top: 820px;
     
 }
 
@@ -471,11 +470,11 @@ h4 {
    width: 200px;
 }
 .social-networks i {
-    font-size: 79%;
+    font-size: 90%;
 }
 
 span {
-    font-size: small;
+    font-size: 90%;
 }
     #photos {
         column-count: 2;
