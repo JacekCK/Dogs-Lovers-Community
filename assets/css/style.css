@@ -383,7 +383,7 @@ h4 {
         margin-top: 55px;
     }
 
-    
+
 
     #cover-text {
 
@@ -396,89 +396,97 @@ h4 {
 
 
 
-#logo {
-    margin-left: 7px;
-    display: inline-block;
+    #logo {
+        margin-left: 7px;
+        display: inline-block;
 
-}
+    }
 
-#navbar {
-    clear: left;
-    float: left;
-    margin-left: 7px;
-    margin-bottom: 20px;
-    line-height: 25px;
-}
+    #navbar {
+        clear: left;
+        float: left;
+        margin-left: 7px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
-#main-outer {
-    width: 100%;
-    height: 600px;
-    clear: left;
-    background-size: cover;
-    background-position: center;
-}
+    #main-outer {
+        width: 100%;
+        height: 600px;
+        clear: left;
+        background-size: cover;
+        background-position: center;
+    }
 
-#left-about {
-    width: 100%;
-    float: left;
-    padding: 0 ;
-}
+    #left-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-.left-about-heading {
-    margin-right: 75px;
-}
+    .left-about-heading {
+        margin-right: 75px;
+    }
 
-#center-about {
-    height: 100%;
-    width: 50%;
-    margin-top: 680px;
-    
-}
+    #center-about {
+        height: 100%;
+        width: 50%;
+        margin-top: 680px;
 
-#square-container {
-    height: 250px;
-   width: 250px;
-}
+    }
 
-.social-networks i {
-    font-size: 109%;
-}
+    #square-container {
+        height: 250px;
+        width: 250px;
+    }
 
-#photos {
-    column-count: 2;
-   }
+    .social-networks i {
+        font-size: 109%;
+    }
 
-
-}
-
-/* Style for screens size 360px wide and down */
-@media screen and (max-width:420px) {
-
-#navbar {
-    font-size: 98%;
-}
-
-#center-about {
-    height: 100%;
-    width: 50%;
-    margin-top: 820px;
-    
-}
-
-#square-container {
-    height: 200px;
-   width: 200px;
-}
-.social-networks i {
-    font-size: 90%;
-}
-
-span {
-    font-size: 90%;
-}
     #photos {
         column-count: 2;
-       }
-    
-    
     }
+
+
+}
+
+/* Style for screens size 460px wide and down */
+@media screen and (max-width:460px) {
+
+    #navbar {
+        font-size: 98%;
+    }
+
+    #center-about {
+        height: 100%;
+        width: 50%;
+        margin-top: 820px;
+
+    }
+
+    #square-container {
+        height: 200px;
+        width: 200px;
+    }
+
+    .social-networks i {
+        font-size: 90%;
+    }
+
+    span {
+        font-size: 90%;
+    }
+
+    .signup-form {
+        padding: 10px;
+        
+    }
+
+
+    #photos {
+        column-count: 2;
+    }
+
+
+}
