@@ -250,22 +250,22 @@ footer {
 
 .form-section {
     clear: left;
-    background: url('../images/background.jpg') no-repeat center center;
+    background: url('../images/background.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 500px;
 }
 
-.signup-form {
+.signup-form  {
     margin: 50px 10% 0 0;
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    left: 26%;
+    left: 27%;
     padding: 30px;
 }
 
-.signup-form h2, h3, h4 {
+.signup-form h2, h4 {
     color: #fafafa;
     margin-bottom: 20px;
 }
