@@ -451,3 +451,35 @@ h4 {
 
 
 }
+
+/* Style for screens size 360px wide and down */
+@media screen and (max-width:360px) {
+
+#navbar {
+    font-size: 98%;
+}
+
+#center-about {
+    height: 100%;
+    width: 50%;
+    margin-top: 800px;
+    
+}
+
+#square-container {
+    height: 200px;
+   width: 200px;
+}
+.social-networks i {
+    font-size: 79%;
+}
+
+span {
+    font-size: small;
+}
+    #photos {
+        column-count: 2;
+       }
+    
+    
+    }
