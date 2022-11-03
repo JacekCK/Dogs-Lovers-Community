@@ -72,7 +72,7 @@ span {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url("../images/dogmeetinpark.webp") no-repeat center center;
+    background: url("../images/dogmeetinpark.jpeg") no-repeat center center;
     clear: left;
     background-size: cover;
     background-position: center;
@@ -191,7 +191,7 @@ h3 {
 }
 
 #square-cover-bg {
-    background: url('../images/main.jpg') no-repeat center center;
+    background: url('../images/main.jpeg') no-repeat center center;
     height: 100%;
     clear: left;
     background-size: cover;
@@ -262,7 +262,7 @@ footer>p {
 
 .form-section {
     clear: left;
-    background: url('../images/background.webp') no-repeat center center;
+    background: url('../images/bonespaws.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 585px;
@@ -399,35 +399,52 @@ h4 {
 /* Style for screens size from 381px wide and down */
 @media screen and (max-width: 381px) {
     #logo {
-font-size: 255%;
+        font-size: 240%;
     }
 
     #navbar {
-font-size: 65%;
+        clear: left;
+        float: left;
+        margin-bottom: 0;
+        line-height: 20px;
+        font-size: 55%;
     }
 
     #left-about {
-font-size: 85%;
+        font-size: 85%;
     }
-#welcome, h2 {
-    font-size: 105%;
-}
-#cover-text {
-    left: 80px;
-    top: 80px;
-}
+
+    #welcome,
+    h2 {
+        font-size: 105%;
+    }
+
+    #cover-text {
+        left: 80px;
+        top: 80px;
+    }
 
 
-#square-container {
-    height: 200px;
-}
+    #square-container {
+        height: 200px;
+    }
 
-footer {
-    font-size: 92%;
-right: -18px;}
+    footer {
+        font-size: 92%;
+        right: -18px;
+    }
 
 
-#photos {
-    column-count: 2;
-}
+    .signup-form {
+        padding: 10px;
+        left: 40px;
+    }
+
+    .form-section {
+        height: 585px;
+    }
+
+    #photos {
+        column-count: 2;
+    }
 }
