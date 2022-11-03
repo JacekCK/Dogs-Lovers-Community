@@ -405,9 +405,9 @@ h4 {
     #navbar {
         clear: left;
         float: left;
-        margin-bottom: 0;
+        margin-bottom: 20px;
         line-height: 20px;
-        font-size: 55%;
+        font-size: 75%;
     }
 
     #left-about {
