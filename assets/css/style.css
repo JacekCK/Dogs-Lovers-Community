@@ -426,3 +426,7 @@ font-size: 85%;
 footer {
     font-size: 92%;
 right: -18px;}
+
+#photos {
+    column-count: 2;
+}
