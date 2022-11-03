@@ -137,13 +137,6 @@ span {
 
 }
 
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-
-}
-
 #center-about {
     width: 33%;
     margin: 0 auto;
@@ -167,7 +160,7 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 50px 0 0 0;
     font-size: 250%;
 }
 
@@ -242,6 +235,7 @@ footer>p {
 
     height: 300px;
     margin-top: 50px;
+    margin-bottom: 65px;
 }
 
 #map {
@@ -353,4 +347,10 @@ h4 {
         background-size: cover;
         background-position: center;
     }
+}
+
+/* Style for screens size from 768px wide and down */
+@media screen and (max-width: 768px) {
+
+
 }
