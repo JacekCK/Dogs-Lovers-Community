@@ -251,6 +251,7 @@ footer>p {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
+    margin-bottom: 75px;
 }
 
 #photos>img {
@@ -264,7 +265,7 @@ footer>p {
     background: url('../images/background.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 585px;
 }
 
 .signup-form {
