@@ -397,19 +397,18 @@ h4 {
     }
 }
 
-/* Style for screens size from 381px wide and down */
-@media screen and (max-width: 381px) {
+/* Style for screens size from 382px wide and down */
+@media screen and (max-width: 382px) {
     #logo {
-        font-size: 240%;
+        font-size: 300%;
     }
 
     #navbar {
         width: 100%;
-        clear: left;
+        margin-left: 22px;
         margin-bottom: 20px;
         line-height: 20px;
-        display: inline-block;
-        font-size: 75%;
+        font-size: 115%;
     }
 
     #left-about {
