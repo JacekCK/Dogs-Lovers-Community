@@ -212,6 +212,7 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 3;
+    
 }
 
 
@@ -359,9 +360,7 @@ h4 {
     }
 
     #navbar {
-        clear: left;
         float: left;
-        font-size: 100%;
         margin-left: 25px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -397,15 +396,15 @@ h4 {
     }
 }
 
-/* Style for screens size from 381px wide and down */
-@media screen and (max-width: 381px) {
+/* Style for screens size from 420px wide and down */
+@media screen and (max-width: 420px) {
     #logo {
-        font-size: 240%;
+        font-size: 290%;
     }
 
     #navbar {
     
-        font-size: 88%;
+        font-size: 89%;
 
     }
 
@@ -455,5 +454,14 @@ h4 {
 
     #photos {
         column-count: 2;
+    }
+}
+
+/* Style for screens size from 365px wide and down */
+@media screen and (max-width: 365px) {
+    #logo {font-size: 243% ;
+    }
+    #navbar {
+font-size: 58%;
     }
 }
