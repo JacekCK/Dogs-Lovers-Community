@@ -16,7 +16,8 @@ body {
 h1,
 h2,
 h3,
-span {
+h4,
+h5 {
     font-family: Inter, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -72,7 +73,7 @@ span {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url("../images/dogmeetinpark.jpeg") no-repeat center center;
+    background: url("../images/dogmeetinpark.webp") no-repeat center center;
     clear: left;
     background-size: cover;
     background-position: center;
@@ -172,7 +173,7 @@ hr {
 }
 
 .center-about-heading h2,
-h3 {
+h3, h4, h5 {
     text-align: center;
     margin: 30px 0 0 0;
 
@@ -191,7 +192,7 @@ h3 {
 }
 
 #square-cover-bg {
-    background: url('../images/main.jpeg') no-repeat center center;
+    background: url('../images/main.webp') no-repeat center center;
     height: 100%;
     clear: left;
     background-size: cover;
@@ -279,8 +280,10 @@ footer>p {
     padding: 30px;
 }
 
-.signup-form h2,
-h4 {
+
+
+.form-section h2, h4
+{
     color: #fafafa;
     margin-bottom: 20px;
 }
