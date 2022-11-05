@@ -98,7 +98,8 @@ h5 {
 
 #cover-text,
 #cover-text h2,
-#cover-text h3 {
+#cover-text h3,
+#cover-text h4 {
     color: #ffffff;
     text-align: center;
 }
