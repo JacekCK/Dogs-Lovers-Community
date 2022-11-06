@@ -109,19 +109,13 @@ h5 {
     font-family: Inter;
     text-transform: uppercase;
     letter-spacing: 5px;
-
     width: 450px;
     height: 185px;
-
     background-color: rgba(20, 15, 89, 0.3);
-
     padding-top: 10px;
     padding-left: 10px;
-
-
-    bottom: 10px;
+    bottom: 68px;
     right: 10px;
-
     position: absolute;
 
 }
@@ -174,7 +168,9 @@ hr {
 }
 
 .center-about-heading h2,
-h3, h4, h5 {
+h3,
+h4,
+h5 {
     text-align: center;
     margin: 30px 0 0 0;
 
@@ -214,7 +210,7 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 3;
-    
+
 }
 
 
@@ -228,8 +224,8 @@ footer>a {
 
 footer>p {
     color: #fafafa;
-    margin-top: -5px;
-   
+    margin-top: -11px;
+
 }
 
 
@@ -283,8 +279,8 @@ footer>p {
 
 
 
-.form-section h2, .form-section h4
-{
+.form-section h2,
+.form-section h4 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -407,7 +403,7 @@ footer>p {
     }
 
     #navbar {
-    
+
         font-size: 89%;
 
     }
@@ -417,8 +413,8 @@ footer>p {
         text-align: justify;
     }
 
-    #welcome, h2
-    {
+    #welcome,
+    h2 {
         font-size: 105%;
         text-align: center;
     }
@@ -428,8 +424,9 @@ footer>p {
         top: 40px;
     }
 
-    #cover-text > h2, h3 {
-        font-size: 75%;
+    #cover-text>h2,
+    h3 {
+        font-size: 100%;
         margin: 30px;
         text-align: center;
     }
@@ -463,9 +460,11 @@ footer>p {
 
 /* Style for screens size from 365px wide and down */
 @media screen and (max-width: 365px) {
-    #logo {font-size: 243% ;
+    #logo {
+        font-size: 243%;
     }
+
     #navbar {
-font-size: 58%;
+        font-size: 59%;
     }
 }
