@@ -1,108 +1,117 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dog Lovers
 
-Welcome JacekCK,
+Dog Lovers it is a website that gives you the opportunity to meet in your area and build a new community of people who love dogs in Wroclaw, Poland. 
+The website will be aimed at people who want to join the new community of dog lovers in the city. Build a new community in the city where you can meet people and friends for your dog. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The guiding principle of our community is good for our pets. Let people remember that animals are not toys, they also have feelings and to be against any kind of violence against our animals. We need to talk about it out loud so that everyone knows it's wrong.
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__*
 
-`python3 -m http.server`
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+  *(above --> text and layout has been taken from love running project)
 
-Another blue button should appear to click: _Open Browser_.
+![Nav Bar](assets/read-me-images/navbar.jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __The Main page image and About Us section__
 
-A blue button should appear to click: _Make Public_,
+- Main page includes a photo with dogs and a location that could be our main meeting place. 
+  - This section introduces the user to Dog Lovers with an eye catching animation to grab their attention.
 
-Another blue button should appear to click: _Open Browser_.
+![Main Page Image](assets/read-me-images/mainimage.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - Section below Main page image is about us section with simple information - why to join our community with "h1,h2" etc. element to make new user attention what they can expect, earn and get when they join our community.
+  - this section includes left heading with all benefits what we can get when you join our community.
+  - on the other side hava a picture how we can enjoy togheter with our animal.
 
-To log into the Heroku toolbelt CLI:
+![About Us](assets/read-me-images/aboutus1.jpg)
+![About Us](assets/read-me-images/aboutus2.jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Meetup Times section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - look at Features Left to Implement.
 
-------
+- __The Footer__ 
 
-## Release History
+  - The footer section includes links to the relevant social media sites for Dog Lovers. The links will open to a new tab to allow easy navigation for the user. 
+  - also footer have a contact details inlcuded and positon is fixed to webpage so is visible all the time for new users. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Footer](assets/read-me-images/footer.jpg)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- __Gallery__
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  Source of images is take from www.pexels.com and from my own libary. 
+   
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Gallery](assets/read-me-images/gallery.jpg)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __The Sign Up Page__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - This page will allow the user to get signed up to Dog Lovers to start their journey with the community. The user will be asked to submit their first name, last name and email address. After signed up welcome pack will be sent for new joiners.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![SignUp](assets/read-me-images/signuppage.jpg)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Features Left to Implement
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- site will be updated - when community grow up. I will add meetup section with times and location. any suggestions will be appreciate :-).
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Testing 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Site has been check on https://ui.dev/amiresponsive to make sure is fully responsive on all devices. Have a look at picture below. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![ResponsiveMockUp](assets/read-me-images/responsive-mockup.webp)
 
-------
+## Lighthouse Test Perfomance
 
-## FAQ about the uptime script
+![LighthouseTest](assets/read-me-images/lighthousetest.jpg)
 
-**Why have you added this script?**
+### Validator Testing 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](assets/read-me-images/htmlvalidator.jpg)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](assets/read-me-images/cssvalidator.jpg)
 
-**How will this affect me?**
+## Deployment
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The live link can be found here - [Dog Lovers](https://jacekck.github.io/Dogs-Lovers-Community/index.html)
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Credits 
 
-**Can I opt out?**
+ - The layout of the website and the style were made on the basis of Coffeehouse Coders and Love Running by code institute. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+ - The text for the Deployment was taken from love running readme file.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Content 
 
-**Anything more?**
+- The icons for this page were taken from [Font Awesome](https://fontawesome.com/)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Media
 
----
+- Images in main , gallery, signup page were taken from [Pexels] (https://pexels.com/)
 
-Happy coding!
+- some Images in gallery were taken from my own libary.
+
+ Hopefully this readme file make sense and will be helpfulf for others. Thanks everyone.
+
+
+
+

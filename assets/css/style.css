@@ -73,7 +73,7 @@ h5 {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url("../images/dogmeetinpark.webp") no-repeat center center;
+    background: url("../images/dogmeetinpark.jpg") no-repeat center center;
     clear: left;
     background-size: cover;
     background-position: center;
@@ -114,7 +114,7 @@ h5 {
     background-color: rgba(20, 15, 89, 0.3);
     padding-top: 10px;
     padding-left: 10px;
-    bottom: 68px;
+    bottom: 125px;
     right: 10px;
     position: absolute;
 
