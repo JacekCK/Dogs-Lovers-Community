@@ -32,9 +32,12 @@ The guiding principle of our community is good for our pets. Let people remember
 ![About Us](assets/read-me-images/aboutus1.jpg)
 ![About Us](assets/read-me-images/aboutus2.jpg)
 
-- __Meetup Times section__
+- __Map__ 
 
-  - look at Features Left to Implement.
+  - map is added from google maps with location when meeting will be taken.
+  - when community growing in the future map will be change with meetup times and location to make better experience for the users.
+
+![Map](assets/read-me-images/map.jpg)
 
 - __The Footer__ 
 
